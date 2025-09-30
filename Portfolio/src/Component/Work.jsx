@@ -8,6 +8,33 @@ export default function Work() {
             </div>
 
             <div className="flex flex-wrap px-20">
+
+                {/* Wrogn Clone */}
+                <div className="flex flex-col text-white items-start w-1/3 p-6 hover:-translate-y-1 hover:bg-gray-100 dark:hover:bg-black rounded-lg transition-all duration-300 ease-in-out cursor-pointer">
+                    <img src="Wrogn.png" className="rounded-lg" loading="lazy" alt="Tailwind CSS Portfolio" />
+                    <h1 className="text-xl font-medium mt-4">Wrogn Clone</h1>
+                    <p className="text-sm mt-2 dark:text-neutral-300 text-neutral-600">
+                        A Full Stack Wrogn Clone Application
+                    </p>
+                    <a
+                        href="https://react-wrogn.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-4 flex flex-row items-center text-sm gap-2 rounded-full hover:text-purple-600"
+                    >
+                        <i className="fa-solid fa-link fa-shake" style={{ color: "#fff" }}></i>
+                        Wrogn.com
+                    </a>
+                    <a
+                        href="https://github.com/Meet-Kathiriya/Tailwind-Web/tree/main/wrogn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-4 flex flex-row items-center text-sm gap-2 rounded-full hover:text-purple-600"
+                    >
+                        <i className="fa-brands fa-github fa-shake" style={{ color: "#e9eaed" }}></i>
+                        Get Code
+                    </a>
+                </div>
                 
                 {/* Blinkit Clone */}
                 <div className="flex flex-col text-white items-start w-1/3 p-6 hover:-translate-y-1 hover:bg-gray-100 dark:hover:bg-black rounded-lg transition-all duration-300 ease-in-out cursor-pointer">
@@ -81,33 +108,6 @@ export default function Work() {
                     </a>
                     <a
                         href="http://github.com/Meet-Kathiriya/Tailwind-Web/tree/main/Airbnb"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mt-4 flex flex-row items-center text-sm gap-2 rounded-full hover:text-purple-600"
-                    >
-                        <i className="fa-brands fa-github fa-shake" style={{ color: "#e9eaed" }}></i>
-                        Get Code
-                    </a>
-                </div>
-
-                {/* Wrogn Clone */}
-                <div className="flex flex-col text-white items-start w-1/3 p-6 hover:-translate-y-1 hover:bg-gray-100 dark:hover:bg-black rounded-lg transition-all duration-300 ease-in-out cursor-pointer">
-                    <img src="Wrogn.png" className="rounded-lg" loading="lazy" alt="Tailwind CSS Portfolio" />
-                    <h1 className="text-xl font-medium mt-4">Wrogn Clone</h1>
-                    <p className="text-sm mt-2 dark:text-neutral-300 text-neutral-600">
-                        A Full Stack Wrogn Clone Application
-                    </p>
-                    <a
-                        href="./Rock Star Games/index.html"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mt-4 flex flex-row items-center text-sm gap-2 rounded-full hover:text-purple-600"
-                    >
-                        <i className="fa-solid fa-link fa-shake" style={{ color: "#fff" }}></i>
-                        Wrogn.com
-                    </a>
-                    <a
-                        href="https://github.com/Meet-Kathiriya/Tailwind-Web/tree/main/wrogn"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mt-4 flex flex-row items-center text-sm gap-2 rounded-full hover:text-purple-600"
