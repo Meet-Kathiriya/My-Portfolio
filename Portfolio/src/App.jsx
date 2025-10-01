@@ -6,7 +6,7 @@ import Contact from './Component/Contact'
 
 export default function App() {
   return (
-    <div>
+    <div className="min-h-screen">
       <Home/>
       <About/>
       <Work/>
