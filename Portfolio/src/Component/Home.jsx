@@ -59,7 +59,7 @@ export default function Home() {
 
                 <div className="flex justify-end items-center w-[45%]">
                     <div className="rounded-full w-[70%] h-[370px]">
-                        <img src="it's me.jpg" alt="" className="rounded-xl" />
+                        <img src="image.png" alt="" className="rounded-xl w-[100%]" />
                     </div>
                 </div>
             </div>
